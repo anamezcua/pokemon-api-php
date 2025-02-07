@@ -6,6 +6,32 @@ body {
     text-align: center;
 }
 
+header {
+    background: #ff6347;
+    padding: 10px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .container {
     width: 80%;
     margin: 20px auto;
@@ -13,10 +39,6 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    color: #ff6347;
 }
 
 .pokemon-list {
@@ -40,8 +62,15 @@ h1 {
     height: 100px;
 }
 
-.pokemon-card h2 {
+.pokemon-card h3 {
     font-size: 18px;
     margin-top: 10px;
     color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
 }
